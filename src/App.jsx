@@ -4,13 +4,6 @@ import { CitiesProvider } from "./contexts/CitiesProvider";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
-// import Product from "./pages/Product";
-// import Homepage from "./pages/Homepage";
-// import Pricing from "./pages/Pricing";
-// import PageNotFound from "./pages/PageNotFound";
-// import AppLayout from "./pages/AppLayout";
-// import Login from "./pages/Login";
-
 const Homepage = lazy(() => import("./pages/Homepage"));
 const Product = lazy(() => import("./pages/Product"));
 const Pricing = lazy(() => import("./pages/Pricing"));
